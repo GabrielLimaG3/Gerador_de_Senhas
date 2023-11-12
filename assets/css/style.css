@@ -2,3 +2,19 @@
     font-family: 'Hacker';
     src: url("/assets/fontes/Mad Hacker.ttf");
 }
+.btn{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 25px;
+    left: 292px;
+    border-radius: 50%;
+}
+.teme-light{
+    background-color: white;
+    color: black;
+}
+.teme-dark{
+    background-color: black;
+    color: white;
+}
