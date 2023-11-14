@@ -2,13 +2,20 @@
     font-family: 'Hacker';
     src: url("/assets/fontes/Mad Hacker.ttf");
 }
+body{
+    font-family: 'Hacker';
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    
+}
 .btn{
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    top: 25px;
-    left: 292px;
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
 }
 .teme-light{
     background-color: white;
@@ -17,4 +24,10 @@
 .teme-dark{
     background-color: black;
     color: white;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
