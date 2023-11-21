@@ -2,33 +2,47 @@
     font-family: 'Hacker';
     src: url("/assets/fontes/Mad Hacker.ttf");
 }
-
-
-body{
-
+*{
     font-family: 'Hacker';
 }
+
 ul{
     display: flex;
     list-style-type: none;
     justify-content: end;
-
 }
 h1{
     font-size: 40px;
 }
 .btn{
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     padding: 10px;
     border: none;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    text-align: center;
 }
-.btn_gerar{
+
+.btn_gerar_light{
     padding: 5px;
     width: 350px;
     border: none;
     border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.btn_gerar_light:hover{
+    background-color: rgb(207, 207, 207);
+}
+.btn_gerar_dark{
+    background-color: black;
+    color: white;
+}
+.btn_gerar_dark:hover{
+    background-color: rgb(29, 29, 29);
 }
 
 .teme-light{
@@ -48,9 +62,10 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-input{
-    width: 350px;
-    margin-top: 5px;
+.btn_white{
+    background-color: black;
+    color: white;
 }
+
 
 
