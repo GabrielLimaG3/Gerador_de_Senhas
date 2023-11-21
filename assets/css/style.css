@@ -34,6 +34,12 @@ h1{
     color: black;
     background-color: white;
 }
+.conteiner_senha{
+    background-color: rgb(26, 26, 26);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
 .btn_gerar_light:hover{
     background-color: rgb(207, 207, 207);
 }
