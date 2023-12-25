@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Hacker';
-    src: url("/assets/fontes/Mad Hacker.ttf");
+    src: url("../fontes/Mad Hacker.ttf");
 }
 *{
     font-family: 'Hacker';
@@ -35,10 +35,13 @@ h1{
     background-color: white;
 }
 .conteiner_senha{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(255, 255, 255);
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
+}
+.conteiner_senha_light{
+    background-color: black;
 }
 .btn_gerar_light:hover{
     background-color: rgb(207, 207, 207);
@@ -58,6 +61,16 @@ h1{
 .teme-dark{
     background-color: black;
     color: white;
+}
+.senha{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.senha-light{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 main{
     display: flex;
